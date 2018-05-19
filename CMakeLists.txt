@@ -17,6 +17,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 add_library(
     cpu
     cpu/cpu.cpp
+    cpu/cpu.h
 )
 
 TARGET_INCLUDE_DIRECTORIES(
